@@ -1,0 +1,148 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+h1{
+  color:red;
+   margin: 30%;
+   width: 40%;
+   background-color: green;
+   position:initial;
+   right: 30%;
+}
+
+body {
+  background-color: #85c1e9;
+}
+
+header.main{
+  background-color: #85c1e9;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20% auto;
+}
+
+
+header nav {
+  background-color: orange;
+  overflow: hidden;
+}
+
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+header nav ul li a {
+  padding: 8px 130px;
+  color: white;
+  text-decoration: underline;
+  display: block;
+}
+
+header nav ul li a:hover {
+  background-color: red;
+  transition: 2s;
+  transform: scale(1.1);
+}
+
+.main aside {
+  font-family: cursive;
+  padding: 12px;
+  background-color: rgb(255, 0, 0);
+}
+
+.logotipo {
+  height: 200px;
+  background-color: cyan;
+}
+
+.imglogo {
+  height: 100%;
+  width: 400px;
+  margin: auto;
+  display: block;
+}
+
+.imgcentro{
+  padding: 10px 118.6px;
+  height: 100px;
+  width: 15%;
+  
+}
+
+
+.main .articles {
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 12px;
+  font-family: cursive;
+  background-color: brown;
+}
+.main.img{
+  margin: auto;
+  width: 50px;
+  height: 50%;
+  display: block;
+  
+}
+
+
+.main .articles1 {
+  width:50%;
+  float: left;
+  height: auto;
+  padding: 12px;
+  font-family: cursive;
+  background-color: rgb(1, 27, 255);
+}
+section {
+  height: 250px;
+}
+aside {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+aside1 {
+  width: 50%;
+  padding: 12px;
+  font-family: cursive;
+  background-color: green;
+}
+
+#contenedor {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  max-width: 1000px;
+}
+
+#contenedor {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  max-width: 1000px;
+}
+
+.card {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  margin: 5px;
+}
+
+footer {
+  background-color: rgb(212, 73, 73);
+  clear: both;
+  color: rgb(33, 230, 108);
+  text-align: center;
+  padding: 10px 0px;
+}
