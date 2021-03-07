@@ -30,6 +30,7 @@ header nav {
 }
 
 
+ 
 header nav ul {
   list-style: none;
 }
@@ -50,11 +51,7 @@ header nav ul li a:hover {
   transform: scale(1.1);
 }
 
-.main aside {
-  font-family: cursive;
-  padding: 12px;
-  background-color: rgb(255, 0, 0);
-}
+
 
 .logotipo {
   height: 200px;
@@ -76,51 +73,134 @@ header nav ul li a:hover {
 }
 
 
-.main .articles {
-  width: 50%;
-  height: auto;
-  float: left;
-  padding: 12px;
-  font-family: cursive;
-  background-color: brown;
+
+/* IMAGENES */
+
+.titulo{
+  color:#f6a664;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
 }
-.main.img{
-  margin: auto;
-  width: 50px;
-  height: 50%;
+.portafolio{
+  background:#85c1e9;
+}
+
+.galeria-port{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagen-port{
+  width: 25%;
+  height: 200px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(255, 0, 0, 0.5);
+}
+
+.imagen-port > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  
+}
+
+.hover-galeria{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: rgba(6, 103, 132, 0.7);
+  transition: transform .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hover-galeria img{
+  width: 50px;
+}
+
+.hover-galeria p{
+  color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+  transform: scale(1);
+}
+/* CIERRE IMAGENES */
+
+/*Imagen Nuestros servicios */
+
+.servicio-cont{
+  justify-content: center;
+  flex-direction:row;
+  display:inline-flex;
+
+}
+
+.servicio-ind{
+  width: 100%;
+  text-align: center;
+}
+
+.servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+  margin-bottom: 60px;
+}
+
+.servicio-ind img{
+  width: 90%;
+}
+.about-services{
+    background:#85c1e9;
+    padding-bottom: 30px;
 }
 
 
-.main .articles1 {
-  width:50%;
-  float: left;
-  height: auto;
-  padding: 12px;
-  font-family: cursive;
-  background-color: rgb(1, 27, 255);
-}
-section {
-  height: 250px;
-}
-aside {
-  width: 50%;
-  float: left;
-  padding: 20px;
-  box-sizing: border-box;
+.servicio-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-aside1 {
-  width: 50%;
-  padding: 12px;
-  font-family: cursive;
-  background-color: green;
+.servicio-ind{
+    width: 28%;
+    text-align: center;
 }
 
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+    color: springgreen;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+    color: white;
+
+}
+
+
+/*Imagen Nuestros servicios */
+
+.compra h2{
+  color: green;
+}
+
+/*contenedor*/
 #contenedor {
   width: 90%;
-  margin: 20px auto;
+  margin: 20px auto; 
   display: flex;
   max-width: 1000px;
 }
@@ -138,6 +218,26 @@ aside1 {
   text-align: center;
   margin: 5px;
 }
+
+.facebook{
+  height: 50px;
+  width: 15%;
+  margin: auto;
+}
+
+.instagram{
+  height: 50px;
+  width: 15%;
+  margin: auto;
+}
+
+.youtube{
+  height: 50px;
+  width: 15%;
+  margin: auto;
+
+}
+
 
 footer {
   background-color: rgb(212, 73, 73);
