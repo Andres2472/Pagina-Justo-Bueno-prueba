@@ -16,6 +16,60 @@ body {
   background-color: #85c1e9;
 }
 
+/* Video */
+iframe{
+  padding: 50px 196.4px;
+  background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.596), hsla(352, 79%, 58%, 0.603), hsla(302, 60%, 34%, 0.61)), url(../Imagenes/Ubicacion.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(23, 89%, 54%, 0.596), hsla(352, 79%, 58%, 0.603), hsla(302, 60%, 34%, 0.61)), url(../Imagenes/Ubicacion.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+/*Barra de busqueda*/
+.buscar{
+  position:fixed;
+  padding: 5px;
+  right: 0%;
+  display: block;
+  
+}
+.buscar input{
+  width: 0px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: black;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  transition: all 0.6s ease;
+}
+.boton{
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-color: slateblue;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.buscar:hover input{
+  width: 240px;
+}
+.buscar input :focus{
+  width: 240px;
+}
+/*Barra de busqueda*/
+
+
 header.main{
   background-color: #85c1e9;
   width: 90%;
@@ -72,7 +126,49 @@ header nav ul li a:hover {
   
 }
 
+/* Descuentos*/
+.descuentos{
+  padding: 30px 0 60px 0;
+}
+.contenedor-descuentos{
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.imagen-descuentos{
+  width: 48%;
+}
+.contenido-textos b{
+  color:red ;
+}
+.descuentos .contenido-textos{
+  width: 48%;
+}
+
+.contenido-textos h3{
+  margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+  background: #ffc400;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  margin-right: 5px;
+}
+
+.contenido-textos p{
+  padding: 0px 0px 30px 15px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* Descuentos*/
 
 /* IMAGENES */
 
@@ -180,7 +276,7 @@ header nav ul li a:hover {
 
 .servicio-ind h3{
     margin: 10px 0;
-    color: springgreen;
+    color: rgb(136, 255, 0);
 }
 
 .servicio-ind p{
@@ -194,7 +290,7 @@ header nav ul li a:hover {
 /*Imagen Nuestros servicios */
 
 .compra h2{
-  color: green;
+  color: #47ff47;
 }
 
 /*contenedor*/
@@ -238,6 +334,14 @@ header nav ul li a:hover {
 
 }
 
+iframe .mapa{
+  padding: 50px 196.4px;
+  background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.596), hsla(352, 79%, 58%, 0.603), hsla(302, 60%, 34%, 0.61)), url(../Imagenes/Ubicacion.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(23, 89%, 54%, 0.596), hsla(352, 79%, 58%, 0.603), hsla(302, 60%, 34%, 0.61)), url(../Imagenes/Ubicacion.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+}
 
 footer {
   background-color: rgb(212, 73, 73);
