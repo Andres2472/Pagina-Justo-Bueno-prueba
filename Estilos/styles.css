@@ -18,7 +18,7 @@ body {
 
 /* Video */
 iframe{
-  padding: 50px 196.4px;
+  padding: 60px 202.5px;
   background: #8A2387;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.596), hsla(352, 79%, 58%, 0.603), hsla(302, 60%, 34%, 0.61)), url(../Imagenes/Ubicacion.jpg);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, hsla(23, 89%, 54%, 0.596), hsla(352, 79%, 58%, 0.603), hsla(302, 60%, 34%, 0.61)), url(../Imagenes/Ubicacion.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -32,7 +32,7 @@ background-attachment: fixed;
 .buscar{
   position:fixed;
   padding: 5px;
-  right: 0%;
+  right: 1.5%;
   display: block;
   
 }
@@ -70,12 +70,6 @@ background-attachment: fixed;
 /*Barra de busqueda*/
 
 
-header.main{
-  background-color: #85c1e9;
-  width: 90%;
-  max-width: 1000px;
-  margin: 20% auto;
-}
 
 
 header nav {
@@ -93,10 +87,11 @@ header nav ul li {
   float: left;
 }
 header nav ul li a {
-  padding: 8px 130px;
+  padding: 8px 96px;
   color: white;
   text-decoration: underline;
   display: block;
+  text-decoration: none;
 }
 
 header nav ul li a:hover {
@@ -165,6 +160,7 @@ header nav ul li a:hover {
   padding: 2px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
   margin-right: 5px;
+  
 }
 
 .contenido-textos p{
@@ -194,7 +190,7 @@ header nav ul li a:hover {
 }
 
 .imagen-port{
-  width: 25%;
+  width: 24%;
   height: 200px;
   margin-bottom: 10px;
   overflow: hidden;
@@ -202,6 +198,41 @@ header nav ul li a:hover {
   cursor: pointer;
   box-shadow:  0 0 6px 0 rgba(0, 255, 34, 0.5);
   border-radius: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .imagen-port{
+    width: 96%;
+    height: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow:  0 0 6px 0 rgba(0, 255, 34, 0.5);
+    border-radius: 30px;
+    
+  }
+  .separador{
+    width:2%;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  .imagen-port{
+  width: 48%;
+  height: 200px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow:  0 0 6px 0 rgba(0, 255, 34, 0.5);
+  border-radius: 30px;
+  
+}
+.separador{
+  width:2%;
+} }
+
+.separador{
+  width:1%;
 }
 
 .imagen-port > img{
@@ -228,6 +259,7 @@ header nav ul li a:hover {
 
 .hover-galeria img{
   width: 50px;
+  border-radius: 30px;
 }
 
 .hover-galeria p{
@@ -342,7 +374,7 @@ header nav ul li a:hover {
 }
 
 iframe.mapa{
-  padding: 50px 196.4px;
+  padding: 50px 215.8px;
   background: #009FFF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, hsla(351, 83%, 55%, 0.514), hsla(203, 100%, 50%, 0.514)), url(../Imagenes/justo\ y\ bueno\ fondo\ 2.jpg); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, hsla(351, 83%, 55%, 0.514), hsla(203, 100%, 50%, 0.514)), url(../Imagenes/justo\ y\ bueno\ fondo\ 2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
